@@ -79,12 +79,6 @@ export default defineConfig({
               component: './ListTableList',
             },
             {
-              name: 'sub-app-1',
-              icon: 'smile',
-              path: '/sub-app-1',
-              microApp: 'sub-app-1',
-            },
-            {
               component: './404',
             },
           ],
