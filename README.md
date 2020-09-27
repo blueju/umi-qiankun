@@ -1,5 +1,11 @@
 # umi-docs
 
-记录一点关于 umi 的文档及存储一点关于 umi 的示例代码工程。
+一些关于 Umi 的示例代码，如动态注册子应用，动态装载子应用路由，子应用动态切换，详见分支。
 
-详见分支。
+| 分支                                | 说明                | 文档                                     |
+| ----------------------------------- | ------------------- | ---------------------------------------- |
+| runtime-dynamic-register-sub-app    | 动态注册子应用      | https://www.yuque.com/blueju/blog/gtgndg |
+| runtime-dynamic-load-sub-app-router | 动态装载子应用路由  | https://www.yuque.com/blueju/blog/uxlrlr |
+| subapp-switch                       | 子应用动态切换      | 暂无                                     |
+| umi-micro-fe-platform               | 简易 Umi 微前端平台 | https://www.yuque.com/blueju/blog/huuie8 |
+
