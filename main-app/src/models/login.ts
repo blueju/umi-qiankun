@@ -39,6 +39,10 @@ const Model: LoginModelType = {
       });
       // Login successfully
       if (response.status === 'ok') {
+        sessionStorage.setItem('isLogin', 'true');
+        setTimeout(() => {
+          window.location.href = '/welcome';
+        }, 500);
         const urlParams = new URL(window.location.href);
         const params = getPageQuery();
         let { redirect } = params as { redirect: string };
